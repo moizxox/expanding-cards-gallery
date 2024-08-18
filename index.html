@@ -7,48 +7,6 @@
     <link rel="stylesheet" href="exp.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Expanding Cards Gallery</title>
-    <style>
-        
-.expand-cont {
-    display: flex;
-    width: 100%;
-}
-
-.exp-panel {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 500px;
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    flex: 0.5;
-    margin: 10px;
-    position: relative;
-    transition: flex 0.5s ease-in;
-}
-
-.exp-panel h3 {
-    font-size: 24px;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    margin: 0;
-    opacity: 0;
-}
-
-.exp-panel.active {
-    flex: 5;
-}
-
-
-@media (max-width: 786px) {
-
-    .exp-panel:nth-of-type(4), .exp-panel:nth-of-type(5) {
-        display: none;
-    } 
-}
-    </style>
 </head>
 <body>
     <div class="heading">
